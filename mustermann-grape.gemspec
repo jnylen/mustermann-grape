@@ -1,5 +1,4 @@
-$:.unshift File.expand_path("../lib", __FILE__)
-require "mustermann/grape/version"
+require File.expand_path("../lib/mustermann/grape/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name                  = "mustermann-grape"
